@@ -11,7 +11,7 @@ export default function HeaderSection() {
                 <button className="py-2 px-4 shadow-sm rounded-md text-base md:text-lg cursor-pointer bg-gradient-to-r from-primary/60 to-secondary/60 hover:scale-105 hover:shadow-xl transition-all duration-200 font-semibold text-white">Donate Now</button>
             </div>
         </div>
-        <img src={HeroBlackPuppy} alt="dobermann puppy" className="w-full max-w-[280px] md:max-w-[380px] lg:max-w-[600px] h-auto mb-10 md:mb-0" />
+        <img src={HeroBlackPuppy} alt="dobermann puppy" className="w-full max-w-[280px] md:max-w-[380px] lg:max-w-[600px] h-auto mb-10 md:mb-0 select-none" />
     </div>
     );
 }
