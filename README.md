@@ -4,6 +4,10 @@ A simple, modern landing page for a fictional dog shelter, built with React and 
 
 live : [Pawhaven](https://paw-haven-landing.vercel.app/)
 
+## Screenshot 
+
+![pawhaven screenshot](./pawhaven_screenshot.png)
+
 ## Features
 - Responsive design for all devices
 - Clean, cohesive UI with consistent styling
