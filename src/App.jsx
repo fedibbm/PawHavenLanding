@@ -8,13 +8,19 @@ import GetInvolvedSection from "./components/GetInvolvedSection";
 import TestimonialsSection from "./components/TestimonialsSection";
 import DonationSection from "./components/DonationSection";
 import ContactNLocationSection from "./components/ContactNLocationSection";
+import FooterSection from "./components/FooterSection";
 
 export default function App() {
   return (
-    <div className="bg-[#f6e6d7] ">
-      <Navbar />
-      <div id="home">
-        <HeaderSection />
+    <div className="bg-background">
+      <div className="bg-gradient-to-b from-[#D0A376]/20 via-background to-background">
+
+        <div className="pt-4">
+          <Navbar />
+        </div>
+        <div id="home">
+          <HeaderSection />
+        </div>
       </div>
       <div id="about">
         <AboutUsSection />
@@ -34,6 +40,7 @@ export default function App() {
       <div id="contact">
         <ContactNLocationSection />
       </div>
+      <FooterSection />
     </div>
   );
 }

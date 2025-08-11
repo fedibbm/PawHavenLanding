@@ -1,12 +1,27 @@
-# React + Vite
+# PawHaven
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, modern landing page for a fictional dog shelter, built with React and Tailwind CSS. This project is designed to showcase my web development skills and is intended for display on portfolio.
 
-Currently, two official plugins are available:
+## Features
+- Responsive design for all devices
+- Clean, cohesive UI with consistent styling
+- Multiple sections: About Us, Meet the Dogs, Get Involved, Donate, Testimonials, Contact & Location
+- No backend or authentication—purely frontend and static assets
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Purpose
+This project is not a real shelter website, but a demonstration of:
+- Component-based architecture (React)
+- Utility-first CSS (Tailwind)
+- Modern web design patterns
+- Mobile-first responsive layouts
 
-## Expanding the ESLint configuration
+## How to Run
+1. Clone the repository
+2. Run `npm install`
+3. Start the development server with `npm run dev`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## License
+MIT
+
+---
+Made for portfolio purposes. Not affiliated with any real organization.

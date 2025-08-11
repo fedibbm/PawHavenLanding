@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Navbar() {
     return (
-        <nav className="w-full bg-transparent backdrop-blur-md bg-white/30 text-stone-900 py-4 px-10 flex justify-between items-center shadow-lg rounded-xl  mx-auto max-w-6xl">
+        <nav className="w-full  backdrop-blur-md bg-surface/60  shadow-primary/20 text-stone-900 py-4 px-10 flex justify-between items-center shadow-lg rounded-xl  mx-auto max-w-6xl">
             <div className="font-bold text-2xl tracking-wide drop-shadow-sm">PawHaven</div>
-            <ul className="flex gap-8 text-lg">
+            <ul className="hidden md:flex gap-8 text-base">
                 <li>
                     <a href="#home" className="hover:text-stone-700 transition-colors duration-200">Home</a>
                 </li>
